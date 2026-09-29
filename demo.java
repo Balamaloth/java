@@ -6,12 +6,12 @@ class A
     public A(){
         System.out.println(" printing A ..");
     }
-//    class B extends A 
-//    {
-//     public B(){
-//         System.out.println(" print B ..");
-//     }
-//    } 
+   class B extends A 
+   {
+    public B(){
+        System.out.println(" print B ..");
+    }
+   } 
 
 
 }
